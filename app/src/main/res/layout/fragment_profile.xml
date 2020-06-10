@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backColor"
+    android:orientation="vertical"
+    tools:context=".ui.Profile.ProfileFragment">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/backColor"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/iv_detailProfile"
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:contentDescription="@string/detail_profile"
+                        android:src="@drawable/ic_person_pin_white_24dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="end">
+
+                    <ImageView
+                        android:id="@+id/iv_logout"
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:contentDescription="@string/keluar"
+                        android:src="@drawable/ic_exit_to_app_white_24dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="205dp"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/civ_profileImage"
+                    android:layout_width="95dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/photo_profile_default"
+                    app:civ_border_color="@color/white"
+                    app:civ_border_width="2dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_userName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:hint="@string/nama_user"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/iv_editProfile"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="top"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginStart="5dp"
+                            android:clickable="true"
+                            android:src="@drawable/ic_create_white_24dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_emailAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:hint="@string/example_email_com"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <Button
+                        android:id="@+id/btn_transaction"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/transaksi"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/btn_transactionHistory"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/riwayat_transaksi"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="260dp"
+        android:orientation="vertical"
+        android:background="@color/backColor">
+
+        <TextView
+            android:id="@+id/tv_no_transaction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/tidak_ada_transaksi"
+            android:visibility="gone"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_transaction"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.RecyclerView>
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:indeterminateTint="@color/colorPrimary" />
+    </RelativeLayout>
+</RelativeLayout>

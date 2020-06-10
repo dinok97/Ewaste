@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">RESIK-APIK</string>
+    <string name="harga">Daftar Harga</string>
+    <string name="saldo">Saldo</string>
+    <string name="jual">Jual</string>
+    <string name="informasi">Informasi</string>
+    <string name="nomortlp">0857-6363-1010</string>
+    <string name="alamat"><a href="https://www.google.com/maps/place/Fakultas+Ilmu+Komputer+Universitas+Brawijaya/@-7.9530522,112.6141954,18.25z/data=!4m5!3m4!1s0x2e78827928958613:0xd600c9c3727a93aa!8m2!3d-7.9536916!4d112.6146732">Universitas Brawijaya</a></string>
+    <string name="instagram"><a href="http://www.instagram.com">"@"exampleindonesia</a></string>
+    <string name="facebook"><a href="http://www.facebook.com">Resik-Apik Indonesia</a></string>
+    <string name="web"><a href="http://www.google.com">example.co.id</a></string>
+    <string name="tentangkami">RESIK-APIK adalah sebuah aplikasi yang membantu Anda dalam bertransaksi sampah anorganik</string>
+    <string name="pengertian">RESIK-APIK adalah aplikasi android yang memudahkan Anda dalam menjual sampah</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_help">Bantuan</string>
+    <string name="title_notif">Notifikasi</string>
+    <string name="title_person">Profil</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="savingBookHeader">Buku Tangungan Anda</string>
+    <string name="nomor">No.</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="keterangan">Ket.</string>
+    <string name="debet">Debet</string>
+    <string name="kredit">Kredit</string>
+    <string name="informationHeader">Informasi</string>
+    <string name="informationTitleDefault">Lorem ipsum dolor sit amet, consectetur adipisicing elit</string>
+    <string name="loren_ipsum_dolor">loren ipsum dolor</string>
+    <string name="defaultTanggal">27/07/2018</string>
+    <string name="selengkapnya">Selengkapnya</string>
+    <string name="longText">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nLorem
+        ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </string>
+    <string name="gambar">gambar</string>
+    <string name="lokasi">Tentukan lokasi Anda . . .</string>
+    <string name="show_seach_icon">show seach icon</string>
+    <string name="selesai">SELESAI</string>
+    <string name="iniCoba">inicobainicobainicobainicoba</string>
+    <string name="jenis_sampah_anda">Jenis sampah Anda . . .</string>
+    <string name="berat_kg">. . . Kg</string>
+    <string name="pilih">Pilih</string>
+    <string name="penjualan_sampah">Penjualan Sampah</string>
+    <string name="email">email</string>
+    <string name="kata_sandi">kata sandi</string>
+    <string name="belum_punya_akun">Belum punya akun? Daftarkan diri Anda</string>
+    <string name="login">LOGIN</string>
+    <string name="daftar">DAFTAR</string>
+    <string name="sudah_punya_akun">Sudah punya akun? Silahkan masuk</string>
+    <string name="ulangi_kata_sandi">ulangi kata sandi</string>
+    <string name="lebih_lanjut">Lebih Lanjut</string>
+    <string name="textOne">Bank Sampah Malang (BSM) yang telah dirintis sejak tahun 2011 ini tidak hanya bermanfaat bagi warga kota Malang dari aspek ekonomi dan lingkungan, namun juga mengundang prestasi tingkat regional hingga nasional. Berbagai dukungan berdatangan termasuk dari Menteri Lingkungan Hidup Prof. Dr. Baltazar Kambuaya ketika meresmikan salah satu unit BSM tahun 2012 silam. Beberapa kota di Indonesia juga melakukan studi banding di BSM dan mengundang tim BSM untuk presentasi di kotanya masing-masing, ingin belajar tentang konsep dan aplikasi BSM Malang.\n
+        BSM Malang memiliki sistem usaha yang profesional, memiliki sarana yang lengkap seperti alat timbang, mesin penghancur botol plastik, mesin pembersih, truk/alat angkut skala kecil dan besar, kantor dan unit-unit cabang, gudang serta memiliki jaringan distribusi produksi akhir sampah.
+Kini warga anggota BSM tidak lagi sembarangan membuang sampah karena ternyata sampah-sampah tersebut memiliki nilai ekonomis dan lumayan menghasilkan uang tunai. Kertas-kertas bekas, botol air mineral, besi bekas, tutupan botol bekas, kaleng-kaleng bekas dan lainnya bisa dikumpulkan dan kalau sudah cukup banyak bisa langsung ditimbang di kendaraan keliling BSM yang sewaktu-waktu datang dilingkungan sesuai permintaan/kebutuhan.\n
+        Tidak berhenti disitu saja, BSM Malang juga melakukan sosialisasi gerakan lingkungan bersih dan sehat serta melakukan pembinaan terhadap masyarakat untuk mengolah sampah plastik bekas seperti bungkusan mie instan, bungkusan permen untuk dijadikan / dirajut / jahit menjadi aneka jenis barang seperti tas, pembungkus kue, hiasan dst.
+BSM juga bekerjasama dengan kader lingkungan kota Malang untuk bersama-sama melakukan kerja sosial pembinaan masyarakat untuk memanfaatkan limbah, mengolah limbah, gerakan menanam dan merawat serta membantu dalam menjaga kebersihan lingkungan.\n
+        Akhirnya kota Malang meraih ADIPURA KENCANA pada Juni 2013 lalu, yaitu penghargaan yang paling tinggi dibidang lingkungan (diatasnya ADIPURA). Ini adalah buah kerjasama masyarakat kota Malang, Pemerintah daerah, semua elemen termasuk kader lingkungan dan Bank Sampah Malang.\n
+        Bank Sampah Malang (BSM) kini menjadi salah satu program unggulan yang diapresiasi secara nasional dan ikut mengundang berbagai prestasi lingkungan. Sudah dirasakan banyak manfaatnya oleh masyarakat kota Malang. Program dan konsep BSM bisa juga dilakukan oleh berbagai kelompok masyarakat, swasta atau usaha personal.
+Tinggal bagaimana program bagus ini dilanjutkan agar semakin meningkat dan unit/cabangnya semakin luas. Kuncinya adalah melibatkan masyarakat secara luas dan jangan terlalu dikendalikan oleh pemerintah, pemerintah sebatas sebagai pendukung/fasilitator aja, bukanlah pengendali, maka konsep BSM pasti tambah maju.
+</string>
+    <string name="textTwo">Sampah sering kali menjadi masalah diseluruh kota yang ada di Indonesia, khususnya di kota-kota besar. Sampah merupakan salah satu penyebab terjadinya bencana banjir dan juga penyebabnya timbulnya beberapa penyakit. Hal ini dapat terjadi juga tidak terlepas dari perilaku masyarakat yang tidak peka akan bahaya yang dapat ditimbulkan oleh sampah. Dari masalah-masalah itulah akhirnya di bentuk Bank Sampah. Bank Sampah yang pertama kali didirikan yaitu di daerah Bantul, kemudian diikuti oleh Surabaya dan Malang.\n
+    Rahmat yang merupakan Direktur Bank Sampah Malang (BSM) yang Cendana News temui di kantornya menjelaskan, bahwa pendirian Bank Sampah Malang (BSM) difasilitasi oleh Dinas Kebersihan dan Pertamanan Kota Malang (DKP) dan dibantu juga oleh CSR dari PLN.\n
+    Rahmat menceritakan pendirian BSM sendiri berawal dari DKP yang merasa memiliki masalah dengan sampah yang ada di Malang, karena sebelum tahun 2011 Kota Malang belum menerapkan pengelolaan sampah dengan metode 3 R (Reduce, Reuse, Recyle). Selain itu, permasalahan sampah juga disebabkan cara berfikir masyarakat yang menganggap bahwa sampah merupakan barang buangan yang sudah tidak dapat digunkan lagi dan kebiasaan masyarakat yang sering membuang sampah sembarangan. Dari situ kemudian Rahmat ditugasi oleh Kepala Dinas untuk mencari inovasi bagaimana caranya agar sampah bisa memiliki nilai ekonomi bagi masyarakat, ceritanya kepada Cendana News Kamis (19/3/2015).\n
+    Rahmat melanjutkan, dia bersama kader lingkungan melakukan survey lapang selama 3 bulan terkait dengan nilai ekonomi yang terdapat pada sampah. Terinspirasi ketika dia melihat beberapa pemulung yang ada di TPA, dia bertanya pada dirinya sendiri “kenapa pemulung ini mencari dan memilah-milah sampah?” akhirnya Rahmat sadar bahwa memang benar ternyata sampah juga memiliki nilai ekonomi. Dari situ dia mulai mencari tahu tentang Bank Sampah dari internet, kemudian Rahmat melakukan Study Banding ke Bank Sampah yang ada di Yogya dan di Surabaya dan menyampaikan hasilnya ke Kepala Dinas, terangnya.\n
+    Awal pembentukan BSM sempat ditentang oleh masyarakat karena masyarakat belum tau apa itu sebenarnya BSM. Mereka berpikir bahwa BSM sama dengan TPA yang dapat menimbulkan bau yang tidak sedap, sehingga kantor BSM yang awalnya berada di daerah Sawojajar didemo oleh masyarakat sekitar dan akhirnya kantor BSM pindah di Jl. S. Supriyadi No.3 Malang sampai sekarang.\n
+    Dari pengalaman tersebut kemudian BSM melakukan sosialisasi kepada masyarakat dengan menggandeng ibi-ibu PKK dan sekolah-sekolah di setiap Kelurahan dan Kecamatan yang ada di Malang. Dengan Motto “Pinjam uang nyicil sampah, beli sembako bayar sampah, bayar listrik dengan sampah”, akhirnya pada bulan Oktober 2011 animo masyarakat yang ingin bergabung dan menjadi nasabah BSM meningkat pesat, sehingga BSM cukup kewalahan dengan banyaknya masyarakat yang ingin bergabung, ujarnya.\n
+    Pada bulan November BSM mulai dilirik dan kemudian diresmikan oleh Menteri Negara Lingkungan Hidup Balthasar Kambuaya pada tanggal 15 November 2011 dan terus berkembang sampai sekarang. Berkembangnya BSM menurut Rahmat karena BSM menerapkan sistem jemput bola dan membentuk kelompok-kelompok di RT RW. Pada 2014 BSM mendapatkan penghargaan dari APO dan berkesempatan mewakili Indonesia belajar pengelolaan sampah di Jepang bersama dengan 27 Negara se-Asia Pacific.\n
+    Untuk menjadi nasabah BSM cukup mudah yaitu hanya membutuhkan fotocopy KTP dan langsung datang kekantor BSM dengan membawa sampah untuk individu, sedangkan untuk kelompok harus memiliki kepengurusan mulai ketua, sekretaris, hingga bendahara dan juga harus memiliki minimal 20 orang anggota, jelasnya.\n
+    Untuk menabung sampah di BSM, masyarakat cukup datang membawa  sampah yang sudah dipilah berapapun beratnya ke BSM, kemudian oleh pihak BSM sampah tersebut di timbang. Dari berat timbangan dan jenis sampah yang disetorkan yang menjadi dasar harga dari sampah tersebut. Setelah ditimbang kemudia nasabah bisa meminta langsung hasil pembayaran dari sampah tersebut (Cash) atau bisa juga ditabung terlebih dahulu selama 1 bulan kemudian baru bisa diambil. Harga sampah yang ditabung lebih tinggi dari harga sampah cash. Terdapat kurang lebih 70 jenis sampah yang bisa dijual dengan pengelompokan sampah plastik, sampah kertas, sampah logam, dan sampah botol atau kaca. Harga sampah berbeda-beda tergantung jenis sampah,urainya.\n
+    Sampah-sampah yang disetorkan oleh para nasabah sebagian langsung diolah sendiri oleh BSM dan ada juga yang dijual ke pabrik, pengepul, dan industri rumah tangga. Dari situ, omset yang diperoleh BSM tiap bulan sekitar Rp. 300.000.000,- per bulan. Nasabah BSM sendiri sekarang sudah mencapai 23.000 orang nasabah, jelasnya.</string>
+    <string name="textThree"> Bank Sampah Malang (BSM) yang berada di Kota Malang, Jawa Timur, makin berkembang. Menurut Direktur BSM Kartika Ikasari, saat ini sudah 200 instansi pemerintah dan swasta di Kota Malang menjadi nasabah BSM.\n
+        “Kami sudah bekerja sama dengan 200 instansi pemerintah dan swasta, 200 sekolah, dan 30 ribu nasabah. Itu data kami per September 2017,” jelas Kartika di Malang, Senin (19/2).\n
+        Dengan jumlah nasabah yang makin banyak, pengelolaan sampah di Kota Malang makin baik. “Tidak ada lagi sampah dibuang sembarangan. Bahkan, sampah bisa dikelola dengan lebih baik dan mendatangkan banyak manfaat bagi semua pihak,” ungkap Wisnu.\n
+        Kartika mengakui, instansi swasta dan pemerintah makin sadar menjaga lingkungan dengan tidak membuang sampah sembarangan. Semua sampah bisa dikelola dengan lebih baik saat ini.\n
+        Bahkan, beberapa rumah sakit besar dan perusahaan di Kota Malang juga sudah bekerja sama dengan BSM untuk mengelola sampah mereka. BSM juga bekerja sama dengan Bank Indonesia untuk mengelola sampah di tempat pembuangan akhir (TPA) Supit Urang.\n
+        Menurut Kartika, ada empat jenis utama sampah yang dikelola BSM, yaitu plastik, logam, kaca, dan kertas. Tapi, yang paling banyak dikelola oleh BSM dari jenis plastik dan kertas. Dari empat jenis sampah tersebut, ada 72 turunan jenis sampah yang bisa dikelola oleh BSM dan masyarakat Kota Malang.\n
+        Sebagai gambaran, menurut Kartika, BSM bisa berbadan hukum koperasi dengan difasilitasi oleh Pemkot Malang bersama dengan kader lingkungan Kota Malang. Pendirian koperasi ini langsung disahkan  Wali Kota Malang pada 16 Agustus 2011 dan diresmikan  Menteri Lingkungan Hidup pada 1 November 2011. \n
+        Menurut Manajer Komunikasi Hukum dan Administrasi PT PLN Distribusi Jawa Timur, G Wisnu Yulianto, BSM harus terus didukung. Karena itulah, pihak PLN hingga saat ini juga terus berusaha mendampingi BSM agar bisa tumbuh dan berkembang lebih baik lagi. “Soalnya, orang juga bisa beli pulsa token listrik dari sampah. Makanya, Bank Sampah harus terus dikembangkan," katanya. \n
+        Jangkauan yang makin luas dari BSM, jelas Wisnu, sebagai bukti BSM sudah berjalan pada trek yang benar. Instansi yang terlibat juga makin banyak, ada ratusan instansi pemerintah dan swasta, sekolah, dan perguruan tinggi. “Jangkauannya makin luas hingga ke Kabupaten Malang dan Batu. Ini akan membawa dampak positif yang makin besar,” katanya.
+    </string>
+    <string name="default_location">loren ipsum dolor loren ipsum dolor loren ipsum dolor loren ipsum dolor loren ipsum dolor loren ipsum dolor</string>
+    <string name="garbage">Garbage</string>
+    <string name="default_price">Rp 120.000,00</string>
+    <string name="langsung">Langsung: </string>
+    <string name="ditabung">Ditabung: </string>
+    <string name="jenis_sampah">Jenis Sampah:</string>
+    <string name="profil">Profil</string>
+    <string name="username">username</string>
+    <string name="example_email_com">(example@email.com)</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="emaill">Email</string>
+    <string name="nomor_telepon">Nomor Telepon</string>
+    <string name="nama_user">nama user</string>
+    <string name="edit_profil">Edit Profil</string>
+    <string name="nama_userr">Nama User</string>
+    <string name="simpan">SIMPAN</string>
+    <string name="batal">BATAL</string>
+    <string name="splash_screen_ewaste">splach screen</string>
+    <string name="detail_profile">detail profile</string>
+    <string name="keluar">keluar aplikasi</string>
+    <string name="transaksi">Transaksi</string>
+    <string name="riwayat_transaksi">Riwayat Transaksi</string>
+    <string name="jenis_transaksi">Jenis Transaksi:</string>
+    <string name="transaction_name">Transaction Name</string>
+    <string name="waktu">Waktu: </string>
+    <string name="nominal_ntransaksi">Nominal: </string>
+    <string name="default_time">08/08/2018</string>
+    <string name="detail">Detail</string>
+    <string name="detail_transaksi">Detail Transaksi</string>
+    <string name="tanggal_transaksi">Tanggal Transaksi:</string>
+    <string name="d_lokasi">Lokasi:</string>
+    <string name="d_jenis_sampah">Jenis Sampah:</string>
+    <string name="nominall">Nominal:</string>
+    <string name="petugas">Petugas:</string>
+    <string name="total_berat">Total Berat:</string>
+    <string name="d_keterangan">Keterangan:</string>
+    <string name="belum_selesai">Transaksi Sedang Diproses</string>
+    <string name="alamat_rumah">Alamat Rumah</string>
+    <string name="pesan">Pesan</string>
+    <string name="dari">Dari</string>
+    <string name="pengirim">Pengirim</string>
+    <string name="waktu_pengambilan_sampah">Waktu Pengambilan Sampah</string>
+    <string name="buku_tabungan">Buku Tabungan</string>
+    <string name="daftar_harga_sampah">Daftar Harga Sampah</string>
+    <string name="jual_sampah">Jual Sampah</string>
+    <string name="tentang_kami">Tentang Kami</string>
+    <string name="resik_apik_application">RESIK-APIK APPLICATION</string>
+    <string name="belum_ada_pesan">Belum ada pesan</string>
+    <string name="tidak_ada_transaksi">Tidak ada transaksi</string>
+    <string-array name="waste_type_array">
+        <item>Semua</item>
+        <item>Plastik</item>
+        <item>Kertas</item>
+        <item>Besi dan Seng</item>
+        <item>Aluminium</item>
+        <item>Botol dan Kaca</item>
+        <item>Kuningan dan Tembaga</item>
+    </string-array>
+</resources>

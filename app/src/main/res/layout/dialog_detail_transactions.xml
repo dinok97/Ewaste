@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="325dp"
+    android:layout_height="wrap_content"
+    android:background="@color/backColor"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/detail_transaksi"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jenis_transaksi"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/tv_dTransactionType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey"
+                android:padding="3dp"
+                android:text="@string/loren_ipsum_dolor"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/tanggal_transaksi"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/tv_dTimeOfTransaction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey"
+                android:padding="3dp"
+                android:text="@string/loren_ipsum_dolor"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/d_jenis_sampah"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/tv_dGarbageType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey"
+                android:padding="3dp"
+                android:text="@string/default_location"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/total_berat"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/tv_dTotalWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey"
+                android:padding="3dp"
+                android:text="@string/loren_ipsum_dolor"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/nominall"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/tv_dTransactionNominal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey"
+                android:padding="3dp"
+                android:text="@string/loren_ipsum_dolor"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/d_lokasi"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/tv_dLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey"
+                android:padding="3dp"
+                android:text="@string/default_location"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/petugas"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/tv_dOfficer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey"
+                android:padding="3dp"
+                android:text="@string/loren_ipsum_dolor"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="7">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:padding="4dp"
+                    android:text="@string/d_keterangan"
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/red"
+                    android:layout_weight="5"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/btn_anotation"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center|start"
+                        android:text="@string/belum_selesai"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

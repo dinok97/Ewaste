@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backColor"
+    android:orientation="vertical"
+    tools:context=".ui.SavingBook.SavingBookActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btn_backToHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_arrow_back_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:text="@string/savingBookHeader"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="31">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/nomor"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tanggal"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_weight="6"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/debet"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_weight="6"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kredit"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:layout_weight="6"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/saldo"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:layout_weight="6"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/keterangan"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:layout_weight="6"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_savingBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp">
+    </android.support.v7.widget.RecyclerView>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:indeterminateTint="@color/colorPrimary" />
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/apk/distribution"
+    package="com.example.dinokeylas.ewaste">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/resik_apik_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/resik_apik_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.dinokeylas.ewaste.ui.Message.DetailMessageActivity"></activity>
+        <activity android:name="com.example.dinokeylas.ewaste.ui.Home.HomeActivity" />
+        <activity android:name="com.example.dinokeylas.ewaste.ui.Price.PriceActivity" />
+        <activity android:name="com.example.dinokeylas.ewaste.ui.SavingBook.SavingBookActivity" />
+        <activity android:name="com.example.dinokeylas.ewaste.ui.Sell.Jual" />
+        <activity android:name="com.example.dinokeylas.ewaste.ui.Information.InformationActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD0ssNXAs_5JHRdk-gAf0yX682mwirJ8j0" />
+
+        <activity
+            android:name="com.example.dinokeylas.ewaste.ui.Sell.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name="com.example.dinokeylas.ewaste.ui.Sign.LoginActivity"
+            android:noHistory="true"></activity>
+        <activity
+            android:name="com.example.dinokeylas.ewaste.ui.Sign.SignUpActivity"
+            android:noHistory="true" />
+        <activity android:name="com.example.dinokeylas.ewaste.util.cobaaa" />
+        <activity android:name="com.example.dinokeylas.ewaste.ui.Profile.EditProfileActivity" />
+        <activity android:name="com.example.dinokeylas.ewaste.ui.Information.InformationContentActivity" />
+        <activity android:name="com.example.dinokeylas.ewaste.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1015320082015",
+    "firebase_url": "https://ewaste-4314a.firebaseio.com",
+    "project_id": "ewaste-4314a",
+    "storage_bucket": "ewaste-4314a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015320082015:android:78a82a505dd71898",
+        "android_client_info": {
+          "package_name": "com.example.dinokeylas.ewaste"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015320082015-hfki82o9droi7tdobgrrckmuc26hkiv6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dinokeylas.ewaste",
+            "certificate_hash": "e84c84d5758fc314a7d09df1e02dab44a666acb2"
+          }
+        },
+        {
+          "client_id": "1015320082015-hmkc9b6dm0rodab8chr1om9aumasfhv8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9DYklqrHDpnz9r8WmsiBmTh2Ncd3-YGM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015320082015-hmkc9b6dm0rodab8chr1om9aumasfhv8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
