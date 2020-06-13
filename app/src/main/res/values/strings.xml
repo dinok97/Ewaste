@@ -136,6 +136,16 @@ Tinggal bagaimana program bagus ini dilanjutkan agar semakin meningkat dan unit/
     <string name="resik_apik_application">RESIK-APIK APPLICATION</string>
     <string name="belum_ada_pesan">Belum ada pesan</string>
     <string name="tidak_ada_transaksi">Tidak ada transaksi</string>
+    <string name="exp_garbage_prices">Daftar Harga Berbagai Jenis Sampah</string>
+    <string name="exp_saving_book">Informasi Lengkap Tabungan Anda</string>
+    <string name="exp_sell">Lakukan Transaksi Penjualan Disini</string>
+    <string name="exp_information">Lihat Informasi dan Pengumuman Disini</string>
+    <string name="layanan_puskesmas">Layanan Puskesmas</string>
+    <string name="x">-----</string>
+    <string name="hospital">hospital</string>
+    <string name="puskesmas_tujuan">Puskesmas Tujuan</string>
+    <string name="keluhan_penyakit">Keluhan Penyakit</string>
+    <string name="tarif_layanan">Tarif Layanan</string>
     <string-array name="waste_type_array">
         <item>Semua</item>
         <item>Plastik</item>
