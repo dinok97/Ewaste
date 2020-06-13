@@ -57,7 +57,9 @@
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_margin="10dp"
-                    android:padding="5dp">
+                    android:padding="5dp"
+                    app:cardCornerRadius="15dp"
+                    android:focusable="true">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -67,12 +69,13 @@
                             android:layout_width="65dp"
                             android:layout_height="80dp"
                             android:padding="5dp"
-                            android:src="@drawable/coba"/>
+                            android:src="@drawable/coba"
+                            android:contentDescription="@string/daftar_harga_sampah" />
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textStyle="bold"
-                            android:textSize="13dp"
+                            android:textSize="13sp"
                             android:textColor="@color/colorPrimaryDark"
                             android:layout_margin="5dp"
                             android:text="@string/daftar_harga_sampah"
@@ -83,13 +86,13 @@
                             android:background="@color/colorPrimary">
                         </View>
                         <TextView
-                            android:textSize="10dp"
+                            android:textSize="10sp"
                             android:layout_margin="1dp"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
-                            android:text="Daftar Harga Berbagai Jenis Sampah"
-                            />
+                            android:text="@string/exp_garbage_prices"
+                            tools:ignore="SmallSp" />
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
                 <android.support.v7.widget.CardView
@@ -99,7 +102,9 @@
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_margin="10dp"
-                    android:padding="5dp">
+                    android:padding="5dp"
+                    app:cardCornerRadius="15dp"
+                    android:focusable="true">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -109,9 +114,10 @@
                             android:layout_width="65dp"
                             android:layout_height="80dp"
                             android:padding="5dp"
-                            android:src="@drawable/saldo"/>
+                            android:src="@drawable/saldo"
+                            android:contentDescription="@string/saldo" />
                         <TextView
-                            android:textSize="13dp"
+                            android:textSize="13sp"
                             android:textColor="@color/colorPrimaryDark"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -125,12 +131,12 @@
                             android:background="@color/colorPrimary">
                         </View>
                         <TextView
-                            android:textSize="10dp"
+                            android:textSize="10sp"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
-                            android:text="Informasi Lengkap Tabungan Anda"
-                            />
+                            android:text="@string/exp_saving_book"
+                            tools:ignore="SmallSp" />
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
             </LinearLayout>
@@ -147,7 +153,9 @@
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_margin="10dp"
-                    android:padding="5dp">
+                    android:padding="5dp"
+                    app:cardCornerRadius="15dp"
+                    android:focusable="true">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -157,9 +165,10 @@
                             android:layout_width="70dp"
                             android:layout_height="80dp"
                             android:padding="2dp"
-                            android:src="@drawable/jual"/>
+                            android:src="@drawable/jual"
+                            android:contentDescription="@string/jual" />
                         <TextView
-                            android:textSize="13dp"
+                            android:textSize="13sp"
                             android:textColor="@color/colorPrimaryDark"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -173,12 +182,12 @@
                             android:background="@color/colorPrimary">
                         </View>
                         <TextView
-                            android:textSize="10dp"
+                            android:textSize="10sp"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
-                            android:text="Lakukan Transaksi Penjualan Disini"
-                            />
+                            android:text="@string/exp_sell"
+                            tools:ignore="SmallSp" />
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
                 <android.support.v7.widget.CardView
@@ -188,7 +197,9 @@
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_margin="10dp"
-                    android:padding="5dp">
+                    android:padding="5dp"
+                    app:cardCornerRadius="15dp"
+                    android:focusable="true">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -198,7 +209,8 @@
                             android:layout_width="65dp"
                             android:layout_height="80dp"
                             android:padding="5dp"
-                            android:src="@drawable/informasi"/>
+                            android:src="@drawable/informasi"
+                            android:contentDescription="@string/informasi" />
                         <TextView
                             android:textColor="@color/colorPrimaryDark"
                             android:layout_width="wrap_content"
@@ -213,12 +225,65 @@
                             android:background="@color/colorPrimary">
                         </View>
                         <TextView
-                            android:textSize="10dp"
+                            android:textSize="10sp"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
-                            android:text="Lihat Informasi dan Pengumuman Disini"
+                            android:text="@string/exp_information"
+                            tools:ignore="SmallSp" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cv_hospital"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    app:cardCornerRadius="15dp"
+                    android:focusable="true">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="80dp"
+                            android:padding="2dp"
+                            android:src="@drawable/hospital"
+                            android:contentDescription="@string/hospital" />
+                        <TextView
+                            android:textSize="13sp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:layout_margin="5dp"
+                            android:text="@string/layanan_puskesmas"
                             />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorPrimary">
+                        </View>
+                        <TextView
+                            android:textSize="10sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="xxxxx"
+                            tools:ignore="SmallSp" />
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
             </LinearLayout>
@@ -236,7 +301,8 @@
                     android:layout_margin="10dp"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
-                    android:padding="10dp">
+                    android:padding="10dp"
+                    android:focusable="true">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -262,14 +328,15 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:padding="10dp"
-                            android:text="@string/pengertian" />
+                            android:text="@string/pengertian"
+                            tools:ignore="SmallSp" />
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
             </LinearLayout>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="-----"
+                android:text="@string/x"
                 android:textColor="@color/backColor"/>
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>

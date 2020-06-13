@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.example.dinokeylas.ewaste.HospitalActivity;
 import com.example.dinokeylas.ewaste.R;
 import com.example.dinokeylas.ewaste.ui.Information.InformationActivity;
 import com.example.dinokeylas.ewaste.ui.Price.PriceActivity;
@@ -31,7 +32,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
     private static final String TAG = "GoogleMap";
     private static final int ERROR_DIALOG_REQUEST = 9001;
 
-    private CardView request, savingBook, priceList, information, helpp;
+    private CardView request, savingBook, priceList, information, helpp, hospital;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -42,16 +43,18 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view= inflater.inflate(R.layout.fragment_home, container, false);
         //pendefinisian cardView
-        priceList = (CardView) view.findViewById(R.id.cv_priceList);
-        savingBook = (CardView) view.findViewById(R.id.cv_savingBook);
-        request = (CardView) view.findViewById(R.id.cv_request);
-        information = (CardView) view.findViewById(R.id.cv_information);
-        helpp = (CardView) view.findViewById(R.id.explan);
+        priceList =  view.findViewById(R.id.cv_priceList);
+        savingBook = view.findViewById(R.id.cv_savingBook);
+        request = view.findViewById(R.id.cv_request);
+        information = view.findViewById(R.id.cv_information);
+        hospital = view.findViewById(R.id.cv_hospital);
+        helpp = view.findViewById(R.id.explan);
 
         //penerapanInten
         priceList.setOnClickListener(this);
         savingBook.setOnClickListener(this);
         information.setOnClickListener(this);
+        hospital.setOnClickListener(this);
         //helpp.setOnClickListener(this);
 
         if (isServiceOK()){
@@ -98,7 +101,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
             case R.id.cv_priceList : intent = new Intent(getActivity(), PriceActivity.class); startActivity(intent); break;
             case R.id.cv_savingBook : intent = new Intent(getActivity(), SavingBookActivity.class); startActivity(intent); break;
             case R.id.cv_information : intent = new Intent(getActivity(), InformationActivity.class); startActivity(intent); break;
-            //case R.id.explan : intent = new Intent(getActivity(), cobaaa.class); startActivity(intent); break;
+            case R.id.cv_hospital : intent = new Intent(getActivity(), HospitalActivity.class); startActivity(intent); break;
             default: break;
         }
     }
