@@ -48,14 +48,12 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
         request = view.findViewById(R.id.cv_request);
         information = view.findViewById(R.id.cv_information);
         hospital = view.findViewById(R.id.cv_hospital);
-        helpp = view.findViewById(R.id.explan);
 
         //penerapanInten
         priceList.setOnClickListener(this);
         savingBook.setOnClickListener(this);
         information.setOnClickListener(this);
         hospital.setOnClickListener(this);
-        //helpp.setOnClickListener(this);
 
         if (isServiceOK()){
             init();
