@@ -146,6 +146,8 @@ Tinggal bagaimana program bagus ini dilanjutkan agar semakin meningkat dan unit/
     <string name="puskesmas_tujuan">Puskesmas Tujuan</string>
     <string name="keluhan_penyakit">Keluhan Penyakit</string>
     <string name="tarif_layanan">Tarif Layanan</string>
+    <string name="exp_puskesmas">Integrasi Layanan Kesehatan Puskesmas</string>
+    <string name="aplikasi_resik_apik">Aplikasi Resik Apik</string>
     <string-array name="waste_type_array">
         <item>Semua</item>
         <item>Plastik</item>
