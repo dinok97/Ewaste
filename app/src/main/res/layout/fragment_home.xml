@@ -19,9 +19,9 @@
             android:layout_height="match_parent"
             app:layout_scrollFlags="exitUntilCollapsed|scroll"
             app:contentScrim="?attr/colorPrimaryDark"
-            app:title="RESIK APIK"
-            app:expandedTitleMarginStart="50dp"
-            app:expandedTitleMarginEnd="66dp"
+            app:title="Bank Sampah Sehat"
+            app:expandedTitleMarginStart="36dp"
+            app:expandedTitleMarginEnd="36dp"
             android:background="@color/colorPrimaryDark">
             <android.support.v7.widget.Toolbar
                 android:layout_width="match_parent"

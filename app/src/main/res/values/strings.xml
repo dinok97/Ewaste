@@ -1,16 +1,16 @@
 <resources>
-    <string name="app_name">RESIK-APIK</string>
+    <string name="app_name">Bank Sampah Sehat</string>
     <string name="harga">Daftar Harga</string>
     <string name="saldo">Saldo</string>
     <string name="jual">Jual</string>
     <string name="informasi">Informasi</string>
     <string name="nomortlp">0857-6363-1010</string>
     <string name="alamat"><a href="https://www.google.com/maps/place/Fakultas+Ilmu+Komputer+Universitas+Brawijaya/@-7.9530522,112.6141954,18.25z/data=!4m5!3m4!1s0x2e78827928958613:0xd600c9c3727a93aa!8m2!3d-7.9536916!4d112.6146732">Universitas Brawijaya</a></string>
-    <string name="instagram"><a href="http://www.instagram.com">"@"resikapikid</a></string>
-    <string name="facebook"><a href="http://www.facebook.com">Resik-Apik Indonesia</a></string>
-    <string name="web"><a href="http://www.google.com">resikapik.co.id</a></string>
-    <string name="tentangkami">RESIK-APIK adalah sebuah aplikasi yang membantu Anda dalam bertransaksi sampah anorganik</string>
-    <string name="pengertian">RESIK-APIK adalah aplikasi android yang memudahkan Anda dalam menjual sampah</string>
+    <string name="instagram"><a href="http://www.instagram.com">"@"banksampahsehatid</a></string>
+    <string name="facebook"><a href="http://www.facebook.com">Bank Sampah Sehat Indonesia</a></string>
+    <string name="web"><a href="http://www.google.com">banksampahsehat.co.id</a></string>
+    <string name="tentangkami">Bank Sampah Sehat adalah sebuah aplikasi yang membantu Anda dalam bertransaksi sampah anorganik</string>
+    <string name="pengertian">Bank Sampah Sehat adalah aplikasi android yang memudahkan Anda dalam menjual sampah</string>
     <string name="title_activity_maps">Map</string>
     <string name="title_home">Beranda</string>
     <string name="title_help">Bantuan</string>
@@ -147,7 +147,7 @@ Tinggal bagaimana program bagus ini dilanjutkan agar semakin meningkat dan unit/
     <string name="keluhan_penyakit">Keluhan Penyakit</string>
     <string name="tarif_layanan">Tarif Layanan</string>
     <string name="exp_puskesmas">Integrasi Layanan Kesehatan Puskesmas</string>
-    <string name="aplikasi_resik_apik">Aplikasi Resik Apik</string>
+    <string name="aplikasi_resik_apik">Aplikasi Bank Sampah Sehat</string>
     <string-array name="waste_type_array">
         <item>Semua</item>
         <item>Plastik</item>
